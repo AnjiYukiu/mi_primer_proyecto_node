@@ -1,0 +1,10 @@
+nombre = "Gerardo"; // Nombre
+apellido = "Beltran"; //Apellido
+estudiante = nombre.concat(" ",apellido) // Concatenar nombre y apellido con espacio
+estudianteMayus = estudiante.toUpperCase() // Cadena estudiante en mayúsculas
+estudianteMinus = estudiante.toLowerCase() // Cadena estudiante en minúsculas
+var cuenta = estudiante.length // Variable que contenga la longitud de la cadena estudiante con espacios
+var primeraNombre = nombre.charAt(0) // Primera letra de la cadena nombre
+var ultimaApellido = apellido.charAt(apellido.length - 1) // Ultima letra de la cadena apellido
+estudianteSinespacios = estudiante.replace(/\s/g,"") // Eliminar los espacios de cadena estudiante
+var estudianteBool = estudiante.includes(nombre) // Determinar mediante booleano si "estudiante" contiene la variable "nombre"
